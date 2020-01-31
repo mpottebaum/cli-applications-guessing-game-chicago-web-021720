@@ -4,7 +4,7 @@ def run_guessing_game
   puts "If you guess the number, you win"
   user_input = gets
   binding.pry
-  if user_input == "exit"
+  if user_input.chomp == "exit"
     puts "Goodbye!"
     return
   end
