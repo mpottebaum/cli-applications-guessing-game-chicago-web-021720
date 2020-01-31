@@ -3,6 +3,7 @@ def run_guessing_game
   puts "The computer is thinking of a number between 1 and 6"
   puts "If you guess the number, you win"
   user_input = gets
+  binding.pry
   if user_input == "exit"
     puts "Goodbye!"
     return
