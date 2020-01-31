@@ -10,6 +10,7 @@ def run_guessing_game
   end
   
   user_number = (user_input.chomp).to_i
+  binding.pry
   if user_number == random_number
     puts "You guessed the correct number!"
   else
